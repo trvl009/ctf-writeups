@@ -3,16 +3,18 @@
 
 1. Network scan to find the target:
 `nmap -sn 192.168.1.0/24`
+![nmap scan](https://github.com/trvl009/ctf-writeups/raw/main/EvilBox-One/nmap.png)
 
 2. Figuring out the web server:
 `dirb http://192.168.1.21`
+![dirb](https://github.com/trvl009/ctf-writeups/raw/main/EvilBox-One/dirb.png)
 
 Here I discovered the following pages:
 `/robots.txt
 /secret/index.html`
 
 On robots.txt I found the following text:
-![Image of robots.txt](https://github.com/trvl009/ctf-writeups/raw/main/EvilBox-One/robots.png)
+![robots.txt](https://github.com/trvl009/ctf-writeups/raw/main/EvilBox-One/robots.png)
 
 The mentioned user "H4x0r" was a decoy.
 
