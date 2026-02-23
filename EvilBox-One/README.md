@@ -12,6 +12,7 @@
 ![dirb](https://github.com/trvl009/ctf-writeups/raw/main/EvilBox-One/dirb.png)
 
 Here I discovered the following pages:
+
 `/robots.txt`
 
 `/secret/index.html`
