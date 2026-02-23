@@ -7,6 +7,7 @@
 
 2. Figuring out the web server:
 `dirb http://192.168.1.21`
+
 ![dirb](https://github.com/trvl009/ctf-writeups/raw/main/EvilBox-One/dirb.png)
 
 Here I discovered the following pages:
