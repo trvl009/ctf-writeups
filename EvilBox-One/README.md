@@ -12,7 +12,7 @@ Here I discovered the following pages:
 /secret/index.html`
 
 On robots.txt I found the following text:
-[Image of robots.txt](https://github.com/trvl009/ctf-writeups/raw/main/EvilBox-One/robots.png)
+![Image of robots.txt](https://github.com/trvl009/ctf-writeups/raw/main/EvilBox-One/robots.png)
 
 The mentioned user "H4x0r" was a decoy.
 
