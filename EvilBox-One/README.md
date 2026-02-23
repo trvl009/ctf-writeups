@@ -29,11 +29,7 @@ The mentioned user "H4x0r" was a decoy.
 
 3. The initial wordlist was too small, so I switched to a larger one and used ffuf:
 
-`ffuf -u http://192.168.1.21/secret/FUZZ \`
-
-`-w /usr/share/seclists/Discovery/Web-Content/common.txt \`
-
-`-e .php,.txt,.bak,.old,.zip`
+`ffuf -u http://192.168.1.21/secret/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt -e .php,.txt,.bak,.old,.zip`
 
 Here I found the following page:
 
